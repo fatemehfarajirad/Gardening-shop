@@ -1,0 +1,21 @@
+#hero{
+    min-height: 50vh;
+}
+.hero__wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: var(--lightGreen-color);
+    border-radius: var(--border-raduis-md);
+}
+.search--wrapper{
+    background-color: var(--light-color);
+    border-radius: var(--border-raduis-md);
+    display: flex;
+    justify-content: space-between;
+    border: solid 2rem var(--light-color);
+}
+.wrapper__right img{
+    border-radius: var(--border-raduis-lg);
+}

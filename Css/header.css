@@ -1,0 +1,19 @@
+#header{
+    min-height: 10vh;
+    background-color: var(--light-color);
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.navbar__logo{
+    display: flex;
+    flex-direction: row;
+}
+.navbar__list{
+    display: flex;
+}
+.navbar__link{
+    color: var(--darkgray-color);
+}
